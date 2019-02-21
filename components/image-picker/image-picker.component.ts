@@ -123,6 +123,7 @@ export class ImagePicker {
   addImage(imgItem: any) {
     this._files.push({
       type: 'img',
+      file: imgItem.file,
       url: imgItem.url,
       orientation: imgItem.orientation
     });
